@@ -28,7 +28,11 @@ dependencies:
       url: https://github.com/skastenhofer/packages
       ref: main
       path: packages/image_picker/image_picker_for_web
-  image_picker_ios: ^0.8.6+1
+  image_picker_ios: 
+    git: 
+      url: https://github.com/skastenhofer/packages
+      ref: main
+      path: packages/image_picker/image_picker_ios
   image_picker_platform_interface:
     git: 
       url: https://github.com/skastenhofer/packages
