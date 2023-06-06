@@ -22,7 +22,11 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  image_picker_android: ^0.8.4+11
+  image_picker_android:
+    git: 
+      url: https://github.com/skastenhofer/packages
+      ref: main
+      path: packages/image_picker/image_picker_android
   image_picker_for_web:
     git: 
       url: https://github.com/skastenhofer/packages
